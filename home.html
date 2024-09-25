@@ -9,6 +9,8 @@
      <!-- link of media query css  -->
       <link rel="stylesheet" href="media.css">
 
+      <!-- link of AOS animation  -->
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
       <!-- link of google fonts  -->
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,28 +26,28 @@
   <header>
     <nav class="navbar navbar-expand-sm  fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="javascript:void(0)"><img src="./images/m-01 (1).jpg" alt=""></a>
+          <a class="navbar-brand" href="home.html"><img src="./images/m-01 (1).jpg" alt=""></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="mynavbar">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href="javascript:void(0)">About</a>
+                <a class="nav-link" href="about.html">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="javascript:void(0)">Projects</a>
+                <a class="nav-link" href="projects.html">Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="javascript:void(0)">Services</a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="javascript:void(0)">Careers</a>
+                <a class="nav-link" href="service.html">Services</a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="javascript:void(0)">Contacts</a>
+                <a class="nav-link" href="career.html">Careers</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="contacts.html">Contacts</a>
               </li>
             </ul>
             
@@ -55,64 +57,70 @@
     </header>
 
     <!-- first page   -->
-     <section class="firstpage">
-        <div class="firstpagecontent">
+     <section class="firstpage" data-aos="fade-up"
+     data-aos-duration="3000">
+        <div class="firstpagecontent" >
             <h1>QUALITY YOU CAN TRUST</h1>
-            <button type="button" class="btn btn-primary">Get a quote</button>
+            <a class="btn-primary" style="color: white;" href="contacts.html">Get a quote  
+            </a>
         </div>
      </section>
 
      <!-- second page  -->
-      <section class="secondpage">
+      <section class="secondpage" data-aos="fade-up"
+      data-aos-duration="3000">
         <div class="secondpagecontent">
             <div class="secondpage-image">
-                <img src="./images/img 1.avif" alt="">
+                <img src="./images/project 2.jpg" alt="">
             </div>
 
             <div class="secondpage-info">
-                <h3>ABOUT SD</h3>
+                <h1>ABOUT SD</h1>
                 <p>At Som Development, we are committed to delivering high-quality construction services that enhance the landscape of Somaliland and contribute to the growth of our communities.</p>
-                <button type="button" class="btn btn-primary">Read more...</button>
+                <a class="btn-primary" style="color: white;" href="about.html">Read more</a>
             </div>
         </div>
       </section>
 
       <!-- third page  -->
-      <section class="thirpage">
+      <section class="thirdpage" data-aos="fade-up"
+      data-aos-duration="3000">
         <div class="thirdpage-info">
             <h1>PROJECTS</h1>
         </div>
       <div class="thirdpage-content">
         
         <div class="thirdpage-images">
-            <img src="./images/img 1.avif" alt="">
+            <img src="./images/project 1.jpg" alt="">
             <h4>location of the project</h4>
         </div>
         <div class="thirdpage-images">
-            <img src="./images/img 1.avif" alt="">
+            <img src="./images/project 3.jpg" alt="">
             <h4>location of the project</h4>
         </div>
 
         <div class="thirdpage-images">
-            <img src="./images/img 1.avif" alt="">
+            <img src="./images/project 4.jpg" alt="">
             <h4>location of the project</h4>
         </div>
-
-        <button type="button" class="btn btn-primary">See more</button> 
+        
       </div>
-
+      <div class="button-shell">
+        <a class="btn-primary" style="color: navy;" href="projects.html">See more</a>
+      </div>
       </section>
 
 
       <!-- fourth page  -->
 
-      <section class="fourthpage">
+      <section class="fourthpage" data-aos="fade-up"
+      data-aos-duration="3000">
   
         <div class="fourthpage-content">
           <div class="fourthpage-disc">
             <h1>Services</h1>
             <p>Expert construction solutions tailored for your needs in Somaliland, ensuring quality and reliability.</p>
-            <button type="button" class="btn btn-primary">More service</button> 
+            <a class="btn-primary" style="color: white;" href="service.html">More service</a> 
           </div>
 
           <div class="fourthpage-num">
@@ -128,28 +136,86 @@
       </section>
 
  <!-- fifth page  -->
-      <section class="fifthpage">
+      <section class="fifthpage" data-aos="fade-up"
+      data-aos-duration="3000">
         <div class="fifthpage-content">
           <h1>Career</h1>
           <p>We are always looking for skilled construction professionals to join our team. If you think you’d make a good fit, have a look at our open positions, or leave an unsolicited application.</p>
-          <button type="button" class="btn btn-primary">Open positions</button> 
+          <a class="btn-primary" style="color: white;" href="career.html">Open positions</a> 
         </div>
         
+      </section>
+
+      <section class="testpage">
+        <div class="testpage-content">
+          <h1>Client testimonials</h1>
+         <div class="testmonials">
+          <div class="client-tes">
+              <h4>Ahmed Khadar</h4>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, ea.</p>
+              <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fa-solid fa-star-half"></i>
+              </div>
+          </div>
+
+          <div class="client-tes">
+            <h4>Ahmed Khadar</h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, ea.</p>
+            <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            
+            
+            </div>
+        </div>
+
+        <div class="client-tes">
+          <h4>Ahmed Khadar</h4>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, ea.</p>
+          <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fa-solid fa-star-half"></i>
+          
+          </div>
+      </div>
+
+      <div class="client-tes">
+        <h4>Ahmed Khadar</h4>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, ea.</p>
+        <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        
+        </div>
+    </div>
+          
+         </div>
+        </div>
       </section>
 
 
  <!-- sixth page  -->
 
- <section class="sixthpage">
+ <section class="sixthpage" data-aos="fade-up"
+ data-aos-duration="3000">
   <div class="sixthpage-content">
     <div class="sixthpage-info">
       <h1>SOM DEVELOPMENT</h1>
     </div>
 
     <div class="sixthpage-contacts">
-      <p>Address</p>
-      <p>Phone number</p>
-      <p>Email</p>
+      <p>Address : </p>
+      <p>Phone number :</p>
+      <p>Email :</p>
     </div>
     
   </div>
@@ -165,5 +231,14 @@
 
     <!-- lik of js bootstrap 5 toturial  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init({
+        duration: 1000,  // Duration of the animation
+        once: true,      // Whether animation should happen only once
+      });
+    </script>
 </body>
 </html>

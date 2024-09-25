@@ -18,9 +18,11 @@ p{
 /* Navbar section  */
 
 .navbar{
-    background-color: transparent;
-    height: 10vh;
+    background-color: white;
+    height: 20vh;
     margin: 5% 5% 0 5%;
+    
+    box-shadow: 0 10px 5px 0 rgba(0, 0, 0, 0.5);
 
 }
 .navbar-nav{
@@ -29,7 +31,7 @@ p{
 
 .navbar .nav-item .nav-link{
     padding-right: 2rem !important;
-    color: white;
+    color: navy;
     background-color: transparent !important;
     font-size: 18px;
     font-weight: 600;
@@ -58,7 +60,7 @@ p{
     width: 100%;
 }
 nav .navbar-brand img{
-    width: 13rem;
+    width: 10rem;
 }
 
 /* first page  */
@@ -66,7 +68,7 @@ nav .navbar-brand img{
 .firstpage{
     width: 100%;
     height: 100vh;
-    background-image: url(./images/bg\ 2.avif);
+    background-image: url(./images/background\ 7.jpeg);
     background-size: cover;
 }
 
@@ -83,11 +85,14 @@ nav .navbar-brand img{
     color: white;
 }
 
-.firstpage .firstpagecontent .btn{
-    pointer-events: none;
-    width: 174px;
+.firstpage .firstpagecontent .btn-primary{
+    background-color: navy;
+    width: 190px;
     padding: 12px 18px;
-    border-radius: 0 !important;
+    text-align: center;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: 600;
 }
 
 .firstpage .firstpagecontent .btn:hover{}
@@ -108,18 +113,28 @@ nav .navbar-brand img{
 }
 
 .secondpage .secondpage-image{
-    max-width: 500px;
-}
-
-.secondpage .secondpage-info{
     max-width: 600px;
 }
 
-.secondpage .secondpage-info .btn{
-    pointer-events: none;
-    width: 174px;
+.secondpage .secondpage-image img{
+    width: 500px;
+    margin-top: 40px;
+}
+
+
+.secondpage .secondpage-info{
+    max-width: 500px;
+    transform: translate(-20%, 0);
+}
+
+.secondpage .secondpage-info .btn-primary{
+    background-color: navy;
+    width: 190px;
     padding: 12px 18px;
-    border-radius: 0 !important;
+    text-align: center;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: 600;
 }
 
 
@@ -128,12 +143,20 @@ nav .navbar-brand img{
 .thirdpage{
     width: 100%;
     height: 100vh;
+    background-color: navy;
 }
 
  .thirdpage-info {
     display: flex;
     justify-content: center;
-    align-items: center;   
+    align-items: center; 
+  
+}
+
+.thirdpage-info h1{
+    margin-bottom: 4rem;
+    font-size: 6vw;
+    color: white;
 }
 
 .thirdpage-content{
@@ -142,7 +165,7 @@ nav .navbar-brand img{
     gap: 20px;
 }
 
-.thirpage .thirdpage-images{
+.thirdpage .thirdpage-images{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -150,19 +173,34 @@ nav .navbar-brand img{
     flex: 1;
 }
 
+.thirdpage-images h4{
+    color: white;
+}
+
 .thirdpage .thirdpage-images img {
     max-width: 100%; /* Ensures images are responsive */
     height: auto; /* Keeps the aspect ratio of images */
   }
 
- 
-.thirdpage-content .btn-primary{
-    margin: 0 auto;
-    pointer-events: none;
-    width: 174px;
-    padding: 12px 18px;
-    border-radius: 0 !important;
+  .button-shell{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    
 }
+
+ 
+.button-shell .btn-primary{
+    background-color: #fff;
+    margin: 0 auto;
+    width: 190px;
+    padding: 12px 18px;
+    text-align: center;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: 600;
+   
+} 
 
 
 /* fourth page  */
@@ -171,7 +209,7 @@ nav .navbar-brand img{
     width: 100%;
     height: 80vh;
     margin-top: 3rem;
-    background-color: navy;
+    background-color: transparent;
    
 }
 
@@ -179,14 +217,23 @@ nav .navbar-brand img{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    color: white;
+    color: navy;
     min-height: 60vh;
     
+}
+
+.fourthpage-disc h1{
+    font-size: 6vw;
+}
+
+.fourthpage-disc p{
+    margin-bottom: 2rem;
 }
 
 .fourthpage-disc{
     max-width: 500px;
     flex-direction: column;
+     
 }
 
 .fourthpage-content .fourthpage-num {
@@ -197,19 +244,28 @@ nav .navbar-brand img{
 
  .fourthpage-num{
     line-height: 2;
+    margin-top: 3rem;
+}
+
+.fourthpage-num p{
+    font-size: 2rem;
 }
 
 .fourthpage-num span{
-    font-size: 3vw;
+    font-size: 4vw;
     font-weight: 500;
     margin-right: 20px;
+    
 }
 
-.fourthpage-disc .btn{
-    pointer-events: none;
-    width: 174px;
-    padding: 12px 18px;
-    border-radius: 0 !important;
+.fourthpage-disc .btn-primary{
+    background-color: navy;
+        width: 190px;
+        padding: 12px 18px;
+        text-align: center;
+        font-size: 1.5rem;
+        text-decoration: none;
+        font-weight: 600;
 }
 
 
@@ -221,22 +277,83 @@ nav .navbar-brand img{
     display: flex;
     justify-content: flex-end; /* Aligns the content to the right */
     align-items: center; /* Centers the content vertically */
+    background-image: url(./images/faded.png);
+    background-size: cover;
+    background-position: center;
+    
 }
 
 .fifthpage-content {
     margin-right: 20px; /* Optional: Add margin if you want some space from the right edge */
 }
 
+.fifthpage-content h1{
+    font-size: 6vw;
+}
+
 .fifthpage-content p{
     max-width: 400px;
 }
 
-.fifthpage-content .btn{
-    pointer-events: none;
-    width: 174px;
+.fifthpage-content .btn-primary{
+    background-color: navy;
+    width: 190px;
     padding: 12px 18px;
-    border-radius: 0 !important;
+    text-align: center;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: 600;
 }
+
+.testpage{
+    width: 100%;
+    height: 70vh;
+}
+
+.testpage-content h1{
+    font-size: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testmonials{
+    display: flex;
+    margin: 60px 0 0 10px;
+    height: 30vh;
+    flex-wrap: ;
+   
+}
+
+.client-tes{
+    font-size: 1.5rem;
+    margin: 10px 0 0 40px;
+    flex-direction: column;
+    max-width: 350px;
+    background-color: navy;
+    color: white;
+}
+
+.client-tes h4{
+    font-size: 2vw;
+    font-weight:900;
+    margin-left: 10px;
+    margin-top: 1.5rem;
+}
+
+.client-tes p{
+    margin-left: 10px;
+    font-size: 0.9rem;
+    font-weight: light;
+    font-style: italic;
+}
+
+.client-tes .stars{
+    margin-left: 10px;
+    color: #FFD700;
+}
+
+
 
 /* sixth page  */
 
@@ -252,6 +369,15 @@ nav .navbar-brand img{
     align-items: center;
     min-height: 30vh;
     color: white;
+}
+
+.sixthpage-content h1{
+    font-size:3vw;
+}
+
+.sixthpage-contacts p{
+    font-size: 2rem;
+    margin-left:-1rem ;
 }
 
 
@@ -372,6 +498,7 @@ ABOUT PAGE //////////////////////
 .projectpageone{
     width: 100%;
     height: 100vh;
+    overflow-x: hidden;
 }
 
 .projectpageone-info{
@@ -395,7 +522,8 @@ ABOUT PAGE //////////////////////
 
 iframe{
   margin: 0 2rem 0 4rem;
-  border-radius: 20px;
+  /* border-radius: 20px; */
+  transform: translate(-3%, 0);
 }
 
 .project-images {
@@ -423,7 +551,7 @@ iframe{
 }
 
 .project-title-image h1{
-    transform: translate(20rem, 30rem);
+    transform: translate(17rem, 25rem);
     color: #fff;
     font-size: 8vw;
 }
@@ -442,6 +570,7 @@ SERVICE PAGE //////////////////////
     background-image: url(./images/bg\ 3.avif);
     background-repeat: no-repeat;
     background-size: cover;
+    overflow-x: hidden !important;
 }
 
 .servicepageone-info h1{
@@ -599,12 +728,16 @@ CAREERS PAGE /////////////////////////////////
   font-weight: 700; 
 }
 
+
+
 .contactspagetwo-title h2{
-    padding: 3rem 0 0 4rem;
+    padding: 3rem 0 0 3rem;
+    color: white;
 }
 
 .contactspagetwo-info{
-    background-color: antiquewhite;
+    background-color: navy;
+    height: 110vh;
 
 }
 
@@ -612,7 +745,15 @@ CAREERS PAGE /////////////////////////////////
     display: flex;
     justify-content: space-around;
     margin: 3rem 0 0 4rem;
+    color: black;
+    
 }
+
+
+
+
+
+
 
 
 
