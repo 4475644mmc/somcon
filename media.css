@@ -1,12 +1,12 @@
 
-@media (max-width: 414px){
+@media (max-width: 375px){
     body{
         overflow-x: hidden;
     }
 }
 
 
-@media (max-width: 414px){
+@media (max-width: 375px){
   
     .navbar {
         background-color: transparent; /* Navy background */
@@ -38,7 +38,7 @@
 }
 
 
-@media (max-width: 414px){
+@media (max-width: 375px){
     .firstpage{
         width: 100%;
         height: 100%;
@@ -67,7 +67,7 @@
 
 
 
-@media  (max-width: 414px){
+@media  (max-width: 375px){
  .secondpage{
     width: 100%;
     height: 100%;
@@ -116,7 +116,7 @@
 }
 
 
-@media (max-width: 414px){
+@media (max-width: 375px){
     .thirdpage{
         width: 100%;
         height: 230vh;
@@ -160,7 +160,7 @@
     }
 }
 
-@media (max-width: 414px){
+@media (max-width: 375px){
     .fourthpage{
         width: 100%;
         height: 100%;
@@ -213,7 +213,7 @@
 }
 
 
-@media (max-width: 414px){
+@media (max-width: 375px){
     .fifthpage{
         width: 100%;
         height: 100%;
@@ -250,7 +250,7 @@ Testmonials///////////////////
 ///////////// */
 
 
-@media  (max-width: 414px){
+@media  (max-width: 375px){
     .testpage{
         width: 100%;
         height: 150vh;
@@ -277,7 +277,7 @@ Testmonials///////////////////
 }
 
 
-@media  (max-width: 414px){
+@media  (max-width: 375px){
     .sixthpage{
         width: 100%;
         height: 50vh;
@@ -314,7 +314,7 @@ Testmonials///////////////////
 /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 About page////////////////////////////////////////////////// */
 
-@media (max-width: 414px){
+@media (max-width: 375px){
 
     .aboutpageone{
         width: 100%;
@@ -329,7 +329,7 @@ About page////////////////////////////////////////////////// */
 }
 
 /* page two */
-@media (max-width: 414px){
+@media (max-width: 375px){
 
 .aboutpageTwo{
     width: 100%;
@@ -365,7 +365,7 @@ About page////////////////////////////////////////////////// */
 
 /* third page  */
 
-@media (max-width: 414px){
+@media (max-width: 375pxpx){
     .aboutpagethird{
         width: 100%;
         height: 100%;
@@ -400,7 +400,7 @@ About page////////////////////////////////////////////////// */
 
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////PROJECT PAGE//////////////////////////////////////////////////////////// */
 
-@media (max-width: 414px){
+@media (max-width: 375px){
 .projectpageone{
     width: 100%;
     height: 100%;
@@ -452,7 +452,7 @@ About page////////////////////////////////////////////////// */
     
   }
   
-  @media (max-width: 414px) {
+  @media (max-width: 375pxpx) {
     .video {
       padding-bottom: 75%; /* Adjust aspect ratio for smaller screens if needed */
       margin-bottom: 5rem !important;
@@ -501,7 +501,7 @@ About page////////////////////////////////////////////////// */
 SERVICE PAGE /////////////////////////
 //////////////// */
 
-@media (max-width: 414px){
+@media (max-width: 375px){
 
     .servicepageone{
         width: 100%;
@@ -560,7 +560,7 @@ SERVICE PAGE /////////////////////////
 
     /* page three  */
     .servicepagethree-info{
-        max-width: 414px !important;
+        max-width: 375px !important;
     }
     .servicepagethree-info h1{
         font-size: 2rem;
@@ -594,7 +594,7 @@ SERVICE PAGE /////////////////////////
 CAREERS PAGE //////////////////////////////
 ////////////////////////////////////////////////// */
 
-@media (max-width: 414px){
+@media (max-width: 375px){
     .careerpageone-info h1{
         padding-top: 90%;
         transform: translate(2%,0);
@@ -618,7 +618,7 @@ CAREERS PAGE //////////////////////////////
 /////////////////////////////////
 ////////////////////////// */
 
-@media (max-width: 414px){
+@media (max-width: 375px){
     .contactspageone{
         width: 100%;
         height: 100vh;
