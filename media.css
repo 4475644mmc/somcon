@@ -6,10 +6,11 @@
 }
 
 
-@media (max-width: 600px){
+@media only screen and (max-width:600px){
   
     .navbar {
         background-color: transparent; /* Navy background */
+        height: 20vh;
       }
 
       .navbar .nav-link {
@@ -17,8 +18,13 @@
       }
 
       .navbar-collapse {
-        background-color: navy; /* Same navy background when the menu expands */
+         /* Same navy background when the menu expands */
         max-width: 100%;
+        margin-top: 4rem;
+      }
+
+      .navbar .nav-item .nav-link{
+        z-index: 1;
       }
 
     
@@ -50,7 +56,7 @@
     }
 
    .firstpage .btn-primary{
-    background-color: navy;
+    background-color: #125A94;
     width: 190px;
     padding: 12px 18px;
     text-align: center;
@@ -59,9 +65,6 @@
     font-weight: 600;
    }
 }
-
-
-
 
 
 
@@ -89,7 +92,7 @@
  }
  .secondpage-info .btn-primary{
 
-    background-color: navy;
+    background-color: #125A94;
     width: 190px;
     padding: 12px 18px;
     text-align: center;
@@ -109,17 +112,18 @@
 
 
  .secondpage-image img{
-    transform: translate(2%, 2rem);
+    transform: translate(-2%, 2rem);
     max-width: 350px;
  }
 
 }
 
 
+
 @media (max-width: 600px){
     .thirdpage{
         width: 100%;
-        height: 230vh;
+        height: 130vh;
         /* transform: translate(-20%, 5%); */
         margin-bottom: 4rem;
     }
@@ -160,7 +164,7 @@
     }
 }
 
-@media (max-width: 375px){
+@media (max-width: 600px){
     .fourthpage{
         width: 100%;
         height: 100%;
@@ -175,13 +179,14 @@
     }
 
     .fourthpage-content{
+        display: block !important;
         flex-direction: column;
         max-width: 350px;
         transform: translate(5%, 0);
     }
 
     .fourthpage-disc .btn-primary{
-        background-color: navy;
+        background-color: #125A94;
         width: 190px;
         padding: 12px 18px;
         text-align: center;
@@ -191,8 +196,7 @@
     }
 
     .fourthpage-num {
-        transform: translate(-12%, 0);
-
+        transform: translate(-2%, 0);
         margin-bottom: 3rem;
 
     }
@@ -213,7 +217,7 @@
 }
 
 
-@media (max-width: 425px){
+@media (max-width: 600px){
     .fifthpage{
         width: 100%;
         height: 100%;
@@ -226,7 +230,7 @@
     }
 
     .fifthpage-content .btn-primary{
-        background-color: navy;
+        background-color: #125A94;
         width: 190px;
         padding: 12px 18px;
         text-align: center;
@@ -250,25 +254,30 @@ Testmonials///////////////////
 ///////////// */
 
 
-@media  (max-width: 375px){
+@media  (max-width: 600px){
     .testpage{
         width: 100%;
-        height: 150vh;
+        height: 100vh;
     }
 
     .testmonials{
         display: block;
     }
-
+    .testpage-content{
+        transform: translate(2.2%, 0);
+    }
     .testpage-content h1{
         font-size: 2.5rem;
         font-weight: 600;
-        margin-top: 2rem;
+        margin-top: -1rem;
+        
+        
     }
 
     .client-tes{
      display: block;
      transform: translate(-8%, 0);
+     margin-top: -2%;
     }
 
     .client-tes h4{
@@ -277,10 +286,12 @@ Testmonials///////////////////
 }
 
 
-@media  (max-width: 375px){
+@media  (max-width: 600px){
     .sixthpage{
         width: 100%;
-        height: 50vh;
+        height: 60vh;
+        margin-top: 3rem;
+        
     }
 
     .sixthpage-content{
@@ -290,17 +301,22 @@ Testmonials///////////////////
     }
 
     .sixthpage-info{
-        /* transform: translate(30%, 10%); */
+        transform: translate(-4rem, 0);
     }
 
-    .sixthpage-info h1{
-        font-size: 2rem;
+    .sixthpage-info img{
+        width: 228px;
     }
 
-    .sixthpage-contacts p{
-        transform: translate(-12%, 0);
+    .sixthpage-contacts {
+        transform: translate(3%, 0);
         font-size: 1.2rem;
     }
+
+    /* .social-media{
+       padding-bottom: 2rem;
+    } */
+    
 
 
     /* .sixthpage-contacts{
@@ -314,22 +330,22 @@ Testmonials///////////////////
 /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 About page////////////////////////////////////////////////// */
 
-@media (max-width: 375px){
+@media (max-width: 600px){
 
     .aboutpageone{
         width: 100%;
-        height: 100vh;
+        height: 100%;
     }
   .aboutpageone-info h1{
     padding-top: 90%;
-    transform: translate(2%,0);
+    transform: translate(-16rem,0);
     font-size: 15vw;
     font-weight: 700 !important;
   }  
 }
 
 /* page two */
-@media (max-width: 375px){
+@media (max-width: 600px){
 
 .aboutpageTwo{
     width: 100%;
@@ -345,14 +361,18 @@ About page////////////////////////////////////////////////// */
     
 }
 
+.aboutpageone-dis h2{
+    font-size: 2rem;
+    transform: translate(1.5%,0)
+}
+
 .aboutpageone-dis{
     max-width: 350px;
-    transform: translate(2%,0);
+    transform: translate(-1%,0);
 }
 
 .about-image img{
-    transform: translate(2%,0);
-    max-width: 350px;
+    display: none;
 }
 
 .underhistoryimage{
@@ -365,7 +385,7 @@ About page////////////////////////////////////////////////// */
 
 /* third page  */
 
-@media (max-width: 375pxpx){
+@media (max-width: 600px){
     .aboutpagethird{
         width: 100%;
         height: 100%;
@@ -379,16 +399,17 @@ About page////////////////////////////////////////////////// */
 
     .aboutthirdpageimage img{
         transform: translate(2%, 0);
-        max-width: 350px;
+        max-width: 375px;
+        margin-bottom: 3rem;
     }
 
     .aboutpagethird-dis{
-        transform: translate(2%,0);
+        transform: translate(-8%,0%);
         max-width: 350px;
     }
 
     .aboutpagethird-dis p{
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
         
     }
 }
@@ -400,15 +421,20 @@ About page////////////////////////////////////////////////// */
 
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////PROJECT PAGE//////////////////////////////////////////////////////////// */
 
-@media (max-width: 375px){
+@media (max-width: 600px){
 .projectpageone{
     width: 100%;
     height: 100%;
-    padding-top: 40%;
+    padding-top: 70%;
 }
 
 .allprojects{
     margin-bottom: 8rem;
+    
+}
+
+.projectpageone-info{
+    padding-top: 5rem !important;
 }
 
 .projects-des{
@@ -424,7 +450,11 @@ About page////////////////////////////////////////////////// */
 }
 
 .projects-des .project-title{
-    transform: translate(5%, 0);
+    transform: translate(5.5%, 0);
+}
+
+.project-title h3{
+    font-size: 1.5rem;
 }
 
 .pragraph-des{
@@ -452,29 +482,32 @@ About page////////////////////////////////////////////////// */
     
   }
   
-  @media (max-width: 375pxpx) {
+  @media (max-width: 600px) {
     .video {
       padding-bottom: 75%; /* Adjust aspect ratio for smaller screens if needed */
       margin-bottom: 5rem !important;
     }
 
     .project-images{
-        max-width: 350px;
-        display: flex;
+        width: 350px;
+        /* height: 20vh; */
         flex-direction: column;
-        /* margin-top: -5rem; */
+        margin-top: 5rem;
+        /* height: auto; */
         
     }
 
     .project-images img{
         width: 100%;
+        height: 30vh;
         border-radius: 0;
         margin-bottom: 2rem;
-        transform: translate(9%, 0);
+        transform: translate(8.9%, 0);
+        flex-direction: column;
 
     }
   .project-title-image{
-        max-width: 414px;
+        max-width: 428px;
         margin-bottom: -8rem;
         margin-top: -8rem;
     }
@@ -483,7 +516,7 @@ About page////////////////////////////////////////////////// */
     }
 
     .project-title-image h1{
-        transform: translate(4%, 15rem);
+        transform: translate(4%, 25rem);
         /* display: block; */
         color: white;
         font-size: 15vw;
@@ -501,16 +534,17 @@ About page////////////////////////////////////////////////// */
 SERVICE PAGE /////////////////////////
 //////////////// */
 
-@media (max-width: 375px){
+@media (max-width: 600px){
 
     .servicepageone{
         width: 100%;
-        height: 100vh;
+        height: 100%;
+        overflow-x: hidden !important;
     }
 
     .servicepageone-info h1{
         padding-top: 90%;
-        transform: translate(2%,0);
+        transform: translate(-10rem,0);
         font-size: 15vw;
         font-weight: 700 !important;
     }
@@ -532,12 +566,13 @@ SERVICE PAGE /////////////////////////
     }
 
     .service-image{
-        max-width: 350px;
+        max-width: 375px;
+        
     }
 
     .service-image img{ 
     width: 100%;
-    transform: translate(-5%, 0);
+    transform: translate(-2rem, 0);
     }
 
     .service-text{
@@ -556,11 +591,13 @@ SERVICE PAGE /////////////////////////
 
     .service-text p{
         text-align: justify;
+        transform: translate(-2%, 0);
     }
 
     /* page three  */
     .servicepagethree-info{
         max-width: 375px !important;
+        transform: translate(7%,0);
     }
     .servicepagethree-info h1{
         font-size: 2rem;
@@ -594,10 +631,14 @@ SERVICE PAGE /////////////////////////
 CAREERS PAGE //////////////////////////////
 ////////////////////////////////////////////////// */
 
-@media (max-width: 375px){
+@media (max-width: 600px){
+    .careerpageone{
+        width: 100%;
+        height: 100%;
+    }
     .careerpageone-info h1{
         padding-top: 90%;
-        transform: translate(2%,0);
+        transform: translate(-3rem,0);
         font-size: 15vw;
         font-weight: 700 !important;
     }
@@ -607,6 +648,14 @@ CAREERS PAGE //////////////////////////////
 
     .careerspagetwo-title h2{
         font-size: 2.5rem;
+        transform: translate(-1rem,0)
+    }
+
+    .careers-vacantpositions h2{
+        transform: translate(0.8rem, 0);
+    }
+    .careers-vacantpositions p{
+        transform: translate(1%, 0)
     }
 }
 
@@ -618,15 +667,22 @@ CAREERS PAGE //////////////////////////////
 /////////////////////////////////
 ////////////////////////// */
 
-@media (max-width: 375px){
+@media (max-width: 600px){
     .contactspageone{
         width: 100%;
-        height: 100vh;
+        height: 100%;
+        overflow-x: hidden;
+    }
+
+    .contactspagetwo-info{
+        width:105%;
+        transform: translate(-1%,0);
+        
     }
 
     .contactspageone-info h1{
         padding-top: 90%;
-        transform: translate(2%,0);
+        transform: translate(-4rem,0);
         font-size: 15vw;
         font-weight: 700 !important;
        
@@ -634,6 +690,7 @@ CAREERS PAGE //////////////////////////////
 
     .contactspageone-info .contactspagetwo-des{
         background-color: transparent;
+        
     }
  
     .contactspagetwo-des{
@@ -644,7 +701,7 @@ CAREERS PAGE //////////////////////////////
     }
 
     .contactspagetwo-title h2{
-        transform: translate(-9%, 0);
+        transform: translate(-9%, 0) !important;
     }
 
     .contactspagetwo{
@@ -664,8 +721,175 @@ CAREERS PAGE //////////////////////////////
     .viacontacts{
         margin-top: 3rem;
         transform: translate(6%, 0);
-        
+         
+    }
+
+    .viacontacts h3{
+        font-size: 1.5rem;
     }
 
     
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+MINI-PHONES RESPONSIVENESS
+/////////////////////////
+////////////////////////////////
+//////////////////////////////
+//////////////////////////////
+///////////////////////////
+////////////////// */
+
+/* HOME.HTML  */
+/* SECOND PAGE  */
+
+@media (max-width: 375px){
+    .secondpage-image img{
+        transform: translate(-1.5%,0);
+    }
+}
+
+/* THIRD PAGE  */
+
+@media (max-width: 375px){
+    .thirdpage-content{
+        flex-direction: column;
+        transform: translate(-5%, 0);
+    }
+
+}
+
+/* FIFTH PAGE */
+
+@media (max-width: 375px){
+    .fifthpage-content{
+        transform: translate(3%, 0);
+    }
+
+    .fifthpage-content h1{
+        font-size: 2.1rem;
+    }
+}
+
+/* SIXTH PAGE  */
+
+@media (max-width: 375px){
+    .sixthpage-contacts{
+        max-width: 350px;
+        transform: translate(3%,0);
+    }
+}
+
+@media (max-width: 375px){
+    .testpage-content h1{
+        font-size: 2rem;
+    }
+}
+
+
+
+/* ABOUT.HTML  */
+
+/* PAGE TWO  */
+
+@media (max-width: 375px){
+    .about-image img{
+        transform: translate(-3.5%, 0);
+    }
+}
+
+/* PAGE THREE  */
+
+@media (max-width: 375px){
+    .aboutpagethird-dis{
+        transform: translate(1%,0);
+    }
+}
+
+/* PROJECTS.HTML  */
+
+@media (max-width: 375px){
+    
+    .project-title h3{
+        transform: translate(-3%,0);
+    }
+
+    .pragraph-des{
+        transform: translate(1%,0)
+    }
+
+    iframe {
+       max-width: 370px;
+       transform: translate(-3.5rem, 0)
+       
+    }
+
+    .project-images img{
+        max-width: 350px;
+        transform: translate(3%, 0);
+    }
+
+    .project-title-image h1{
+        font-size: 2.3rem;
+    }
+
+    .projectpageone-info{
+        padding-top: 8rem !important;
+    }
+}
+
+
+/* SERVICE.HTML  */
+/* PAGE TWO  */
+
+@media (max-width: 375px){
+  .service-image{
+    max-width: 350px;
+    transform: translate(-2.5%, 0);
+  }
+}
+
+/* PAGE THREE  */
+.servicepagethree{
+    transform: translate(-3%, 0);
+}
+.servicepagethree-info P{
+    max-width: 350px;
+}
+
+/* CONTACTS.HTML  */
+
+@media (max-width: 375px){
+    .contactspagetwo-title h2{
+        max-width: 350px;
+        transform: translate(2rem, 0) !important;
+    }
+
+    .viacontacts{
+        
+        max-width: 350px;
+    }
+}
+

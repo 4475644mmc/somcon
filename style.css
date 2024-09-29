@@ -19,10 +19,10 @@ p{
 
 .navbar{
     background-color: white;
-    height: 20vh;
-    margin: 5% 5% 0 5%;
+    height: 8vh;
+    margin: 2%  0;
     
-    box-shadow: 0 10px 5px 0 rgba(0, 0, 0, 0.5);
+    /* box-shadow: 0 10px 5px 0 rgba(0, 0, 0, 0.5); */
 
 }
 .navbar-nav{
@@ -31,16 +31,19 @@ p{
 
 .navbar .nav-item .nav-link{
     padding-right: 2rem !important;
-    color: navy;
+    color: #125A94;
     background-color: transparent !important;
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 600;
     /* pointer-events: none; */
     text-decoration: none;
     position: relative;
     transition: width .3s ease-in-out;
     cursor: pointer !important;
+    
 }
+
+
 
 .navbar .nav-item .nav-link:hover{
     background-color: transparent !important;
@@ -60,7 +63,7 @@ p{
     width: 100%;
 }
 nav .navbar-brand img{
-    width: 10rem;
+    width: 13rem;
 }
 
 /* first page  */
@@ -85,14 +88,19 @@ nav .navbar-brand img{
     color: white;
 }
 
-.firstpage .firstpagecontent .btn-primary{
-    background-color: navy;
+ .firstpagecontent .btn-primary{
+    background-color: #125A94;
     width: 190px;
     padding: 12px 18px;
     text-align: center;
     font-size: 1.5rem;
     text-decoration: none;
     font-weight: 600;
+    transition: .3s ease-in-out;
+}
+
+.firstpagecontent .btn-primary:hover{
+ background-color: #093057;
 }
 
 .firstpage .firstpagecontent .btn:hover{}
@@ -101,7 +109,7 @@ nav .navbar-brand img{
 /* second page  */
 .secondpage{
     width: 100%;
-    height: 70vh;
+    height: 80vh;
     margin-top: 40px;
 }
 
@@ -127,23 +135,37 @@ nav .navbar-brand img{
     transform: translate(-20%, 0);
 }
 
-.secondpage .secondpage-info .btn-primary{
-    background-color: navy;
+.secondpage-info h1{
+    font-weight: 700;
+}
+
+.secondpage-info p{
+    margin-bottom: 2rem;
+}
+
+.secondpage-info .btn-primary{
+    background-color: #125A94;
     width: 190px;
     padding: 12px 18px;
     text-align: center;
     font-size: 1.5rem;
     text-decoration: none;
     font-weight: 600;
+    transition: .3s ease-in-out;
+
 }
+
+ .secondpage-info .btn-primary:hover{
+    background-color: #093057;
+   }
 
 
 /* third page  */
 
 .thirdpage{
     width: 100%;
-    height: 100vh;
-    background-color: navy;
+    height: 90vh;
+    background-color: #125A94;
 }
 
  .thirdpage-info {
@@ -157,6 +179,7 @@ nav .navbar-brand img{
     margin-bottom: 4rem;
     font-size: 6vw;
     color: white;
+    font-weight: 700;
 }
 
 .thirdpage-content{
@@ -175,6 +198,7 @@ nav .navbar-brand img{
 
 .thirdpage-images h4{
     color: white;
+    margin-top: 1rem;
 }
 
 .thirdpage .thirdpage-images img {
@@ -199,8 +223,16 @@ nav .navbar-brand img{
     font-size: 1.5rem;
     text-decoration: none;
     font-weight: 600;
+    transition: .3s ease-in-out;
    
 } 
+
+.button-shell  .btn-primary:hover{
+    background-color: #093057;
+    color: white !important;
+   }
+
+
 
 
 /* fourth page  */
@@ -217,13 +249,14 @@ nav .navbar-brand img{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    color: navy;
+    color: #125A94;
     min-height: 60vh;
     
 }
 
 .fourthpage-disc h1{
     font-size: 6vw;
+    font-weight: 700;
 }
 
 .fourthpage-disc p{
@@ -249,24 +282,31 @@ nav .navbar-brand img{
 
 .fourthpage-num p{
     font-size: 2rem;
+    font-style: italic;
 }
 
 .fourthpage-num span{
     font-size: 4vw;
-    font-weight: 500;
+    font-weight: 700;
     margin-right: 20px;
-    
+    font-style:normal;
 }
 
 .fourthpage-disc .btn-primary{
-    background-color: navy;
+    background-color: #125A94;
         width: 190px;
         padding: 12px 18px;
         text-align: center;
         font-size: 1.5rem;
         text-decoration: none;
         font-weight: 600;
+        transition: .3s ease-in-out;
 }
+
+.fourthpage-disc .btn-primary:hover{
+    background-color: #093057;
+    color: white !important;
+   }
 
 
 /* fifth page  */
@@ -289,14 +329,17 @@ nav .navbar-brand img{
 
 .fifthpage-content h1{
     font-size: 6vw;
+    color: #125A94;
+    font-weight: 700;
 }
 
 .fifthpage-content p{
     max-width: 400px;
+    margin-bottom: 2rem;
 }
 
 .fifthpage-content .btn-primary{
-    background-color: navy;
+    background-color: #125A94;
     width: 190px;
     padding: 12px 18px;
     text-align: center;
@@ -304,6 +347,13 @@ nav .navbar-brand img{
     text-decoration: none;
     font-weight: 600;
 }
+
+.fifthpage-content .btn-primary:hover{
+    background-color: #093057;
+    color: white !important;
+   }
+
+
 
 .testpage{
     width: 100%;
@@ -315,13 +365,17 @@ nav .navbar-brand img{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #125A94;
+    color: #fff;
+    margin-top: -1.7rem;
+    font-weight: 700;
 }
 
 .testmonials{
     display: flex;
     margin: 60px 0 0 10px;
     height: 30vh;
-    flex-wrap: ;
+    
    
 }
 
@@ -330,7 +384,7 @@ nav .navbar-brand img{
     margin: 10px 0 0 40px;
     flex-direction: column;
     max-width: 350px;
-    background-color: navy;
+    background-color: #125A94;
     color: white;
 }
 
@@ -360,7 +414,7 @@ nav .navbar-brand img{
 .sixthpage{
     width: 100%;
     height: 40vh;
-    background-color: navy;
+    background-color: #125A94;
 }
 
 .sixthpage-content{
@@ -371,13 +425,50 @@ nav .navbar-brand img{
     color: white;
 }
 
-.sixthpage-content h1{
-    font-size:3vw;
+.sixthpage-contacts{
+    flex-direction: column;
+    line-height: 2;
+}
+.social-media{
+ margin-left: -18px;
 }
 
+.social-media a {
+    color: white;
+    font-size: 28px; /* Adjust the size as needed */
+    margin-right: 10px; /* Space between icons */
+    transition: color 0.3s ease; /* Smooth transition */
+  }
+  
+  .social-media a:hover .fa-facebook {
+    color: #3b5998; /* Facebook blue */
+  }
+  
+  .social-media a:hover .fa-youtube {
+    color: #FF0000; /* YouTube red */
+  }
+  
+  .social-media a:hover .fa-square-whatsapp {
+    color: #25D366; /* WhatsApp green */
+  }
+
+
+
 .sixthpage-contacts p{
-    font-size: 2rem;
-    margin-left:-1rem ;
+    font-size: 1.2rem;
+    margin-left:-1rem;
+}
+
+.sixthpage-contacts span{
+    font-weight: 700;
+}
+
+.sixthpage-info{
+    max-width: 30%;
+}
+
+.sixthpage-info img{
+    width: 100%;
 }
 
 
@@ -393,16 +484,17 @@ ABOUT PAGE //////////////////////
 .aboutpageone{
     width: 100%;
     height: 100vh;
-    background-image: url(./images/bg\ 3.avif);
+    background-image: url(./images/background\ 4.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .aboutpageone-info h1{
-  padding-top: 35%;
+  padding-top: 41%;
   color: white;
-  font-size: 8vw;
+  font-size: 4vw;
   font-weight: 700; 
+  margin-left: 16rem;
 }
 
 /* page two */
@@ -439,16 +531,22 @@ ABOUT PAGE //////////////////////
     
 }
 
+.aboutpageone-dis h2{
+    font-weight: 700;
+    font-size: 2vw;
+    color: #125A94;
+}
+
 .underhistoryimage{
     width: 100%;
 }
 
 .underhistoryimage img{
     position: absolute;
-    width: 75rem;
-    height: 40vh;
+    width: 60rem;
+    height: 55vh;
     margin-bottom: 2rem;
-    transform: translate(15%, -20%) ;
+    transform: translate(25%, -14%) ;
     z-index: -100;
 }
 
@@ -476,6 +574,11 @@ ABOUT PAGE //////////////////////
     flex-direction: column;
 }
 
+.aboutpagethird-dis h2{
+    color: #125A94;
+    font-weight: 700;
+}
+
 .aboutpagethird-dis p{
     max-width: 600px;
 }
@@ -499,10 +602,18 @@ ABOUT PAGE //////////////////////
     width: 100%;
     height: 100vh;
     overflow-x: hidden;
+    background-color: #125A94;
+    color: white;
 }
 
+
 .projectpageone-info{
-    padding-top: 20%;
+    padding-top: 5%;
+}
+.project-title h3{
+    font-weight:700;
+    font-size: 2vw;
+    color: white;
 }
 
 .projects-des{
@@ -521,9 +632,10 @@ ABOUT PAGE //////////////////////
 }
 
 iframe{
+    width: 95%;
   margin: 0 2rem 0 4rem;
   /* border-radius: 20px; */
-  transform: translate(-3%, 0);
+  transform: translate(-1%, 0);
 }
 
 .project-images {
@@ -534,7 +646,7 @@ iframe{
   }
   
   .project-images img {
-    width: 30%; /* Adjust the width to fit your layout */
+    width: 30%; 
     height: 50vh; /* Maintain aspect ratio */
     border-radius: 20px;
   }
@@ -553,7 +665,8 @@ iframe{
 .project-title-image h1{
     transform: translate(17rem, 25rem);
     color: #fff;
-    font-size: 8vw;
+    font-size: 4vw;
+    font-weight: 700;
 }
 
  
@@ -567,17 +680,18 @@ SERVICE PAGE //////////////////////
 .servicepageone{
     width: 100%;
     height: 100vh;
-    background-image: url(./images/bg\ 3.avif);
+    background-image: url(./images/background\ 6.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     overflow-x: hidden !important;
 }
 
 .servicepageone-info h1{
-  padding-top: 35%;
+  padding-top: 41%;
   color: white;
-  font-size: 8vw;
+  font-size: 4vw;
   font-weight: 700; 
+  margin-left: 11rem;
 }
 
 /* page two  */
@@ -606,24 +720,37 @@ SERVICE PAGE //////////////////////
     margin: 5rem 0 0 0;
 }
 
+.service-text h1{
+    font-size: 3vw;
+    font-weight: 700;
+    color: #125A94;
+}
+
+.service-text h2{
+    font-weight: 700;
+}
+
 /* page three  */
 
 .servicepagethree{
-    width: 100%;
+    max-width: 100%;
     height: 70vh;
-    background-color: aliceblue;
+    background-color: #125A94;
+    transform: translate(2%, 0);
 }
 
-.servicepagethree-info{
+ .servicepagethree-info{
+    
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     min-height: 65vh;
+    color: #fff;
 }
 
 .servicepagethree-info .btn-primary{
-    background-color: navy;
+    background-color: white;
     width: 190px;
     padding: 12px 18px;
     text-align: center;
@@ -661,16 +788,17 @@ CAREERS PAGE /////////////////////////////////
 .careerpageone{
     width: 100%;
     height: 100vh;
-    background-image: url(./images/bg\ 4.avif);
+    background-image: url(./images/background\ 5.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .careerpageone-info h1{
-  padding-top: 35%;
+  padding-top: 41%;
   color: white;
-  font-size: 8vw;
+  font-size: 4vw;
   font-weight: 700; 
+  margin-left: 4rem;
 }
 
 .careerspagetwo-info{
@@ -680,8 +808,9 @@ CAREERS PAGE /////////////////////////////////
 
 .careerspagetwo-title h2{
     font-size: 3vw;
-    color: navy;
+    color: #125A94;
     margin-bottom: 3rem;
+    font-weight: 700;
 }
 
 .careers-vacantpositions{
@@ -691,15 +820,17 @@ CAREERS PAGE /////////////////////////////////
 }
 
 .careers-vacantpositions h1{
-    color: navy;
+    color: #125A94;
+    font-weight: 700;
 }
 
 .careers-vacantpositions h2 a{
-    color: navy !important;
+    color: #093057!important;
 }
 
 .careers-vacantpositions p{
     font-weight: 600;
+    color:#125A94 ;
 }
 
 
@@ -716,29 +847,32 @@ CAREERS PAGE /////////////////////////////////
 .contactspageone{
     width: 100%;
     height: 100vh;
-    background-image: url(./images/bg\ 5.avif);
+    background-image: url(./images/background\ 2.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 
-
 .contactspageone-info h1{
-  padding-top: 35%;
+  padding-top: 41%;
   color: white;
-  font-size: 8vw;
+  font-size: 4vw;
   font-weight: 700; 
+  margin-left: 4rem;
 }
-
 
 
 .contactspagetwo-title h2{
-    padding: 3rem 0 0 3rem;
+    /* padding: 3rem 0 0 8rem; */
+    transform: translate(5%, 0);
     color: white;
+    padding-top: 4rem;
+    font-weight: 700;
+    
 }
 
 .contactspagetwo-info{
-    background-color: navy;
+    background-color: #125A94;
     height: 110vh;
 
 }
@@ -746,9 +880,18 @@ CAREERS PAGE /////////////////////////////////
 .contactspagetwo-des{
     display: flex;
     justify-content: space-around;
-    margin: 3rem 0 0 4rem;
+    margin: 4rem 0 0 4rem;
     color: black;
     
+}
+
+.viacontacts h3{
+    font-size: 2vw;
+    font-weight: 700;
+}
+
+.viacontacts p span{
+    font-weight: 700;
 }
 
 
