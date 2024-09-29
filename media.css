@@ -1,12 +1,12 @@
 
-@media (max-width: 375px){
+@media (max-width: 600px){
     body{
         overflow-x: hidden;
     }
 }
 
 
-@media (max-width: 375px){
+@media (max-width: 600px){
   
     .navbar {
         background-color: transparent; /* Navy background */
@@ -38,7 +38,7 @@
 }
 
 
-@media (max-width: 375px){
+@media (max-width: 600px){
     .firstpage{
         width: 100%;
         height: 100%;
@@ -67,7 +67,7 @@
 
 
 
-@media  (max-width: 375px){
+@media  (max-width: 600px){
  .secondpage{
     width: 100%;
     height: 100%;
@@ -116,7 +116,7 @@
 }
 
 
-@media (max-width: 375px){
+@media (max-width: 600px){
     .thirdpage{
         width: 100%;
         height: 230vh;
@@ -213,7 +213,7 @@
 }
 
 
-@media (max-width: 375px){
+@media (max-width: 425px){
     .fifthpage{
         width: 100%;
         height: 100%;
