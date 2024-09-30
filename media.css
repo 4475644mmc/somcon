@@ -222,11 +222,17 @@
         width: 100%;
         height: 100%;
         margin-top: 2rem;
+        background-image: none;
     }
     .fifthpage-content{
-        transform: translate(-2%, 0%);
+        transform: translate(-3rem, 0%);
         max-width: 350px;
         margin-bottom: 3rem;
+    }
+
+    .fifthpage-content h1{
+        transform: translate(-1%, 0%);
+        font-size: 2rem;
     }
 
     .fifthpage-content .btn-primary{
@@ -241,6 +247,7 @@
 
     .fifthpage-content p{
         transform: translate(-2.2%, 0%);
+        font-weight: 500;
     }
 
 }
@@ -338,7 +345,7 @@ About page////////////////////////////////////////////////// */
     }
   .aboutpageone-info h1{
     padding-top: 90%;
-    transform: translate(-16rem,0);
+    transform: translate(-15.5rem,0);
     font-size: 15vw;
     font-weight: 700 !important;
   }  
@@ -368,7 +375,7 @@ About page////////////////////////////////////////////////// */
 
 .aboutpageone-dis{
     max-width: 350px;
-    transform: translate(-1%,0);
+    transform: translate(1.5%,0);
 }
 
 .about-image img{
@@ -682,8 +689,8 @@ CAREERS PAGE //////////////////////////////
 
     .contactspageone-info h1{
         padding-top: 90%;
-        transform: translate(-4rem,0);
-        font-size: 15vw;
+        transform: translate(-3rem,0);
+        font-size: 12vw;
         font-weight: 700 !important;
        
     }
@@ -701,7 +708,7 @@ CAREERS PAGE //////////////////////////////
     }
 
     .contactspagetwo-title h2{
-        transform: translate(-9%, 0) !important;
+        transform: translate(1.3rem, 0) !important;
     }
 
     .contactspagetwo{
@@ -711,7 +718,7 @@ CAREERS PAGE //////////////////////////////
     .contactspagetwo-des .gmap_canvas{
         margin-top: 1.6rem;
         max-width: 414px;
-        transform: translate(56%,0);
+        transform: translate(58%,0);
     }
 
    
@@ -719,6 +726,7 @@ CAREERS PAGE //////////////////////////////
     
 
     .viacontacts{
+        max-width: 350px;
         margin-top: 3rem;
         transform: translate(6%, 0);
          
@@ -817,6 +825,10 @@ MINI-PHONES RESPONSIVENESS
 @media (max-width: 375px){
     .about-image img{
         transform: translate(-3.5%, 0);
+    }
+
+    .secondpage-info{
+        margin-left: 1rem;
     }
 }
 
